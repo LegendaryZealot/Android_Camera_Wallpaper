@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="首次使用需要进入此界面，然后允许相机权限"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="50dp"
+        />
+
+</android.support.constraint.ConstraintLayout>
